@@ -6,4 +6,4 @@ before_install:
   - docker build -t mross04/scratch-app -f Dockerfile.dev .
 
 script:
-  - docker run mross04/scratch-app npm run test -- --coverage
+  - docker run -e CI=true mross04/scratch-app npm run test
