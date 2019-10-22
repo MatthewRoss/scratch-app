@@ -12,7 +12,7 @@ deploy:
   provider: elasticbeanstalk
   region: "eu-west-1"
   app: "scratch-app"
-  env: "ScratchApp-env"
+  env: "ScratchApp-env-1"
   bucket_name: "elasticbeanstalk-eu-west-1-804184065314"
   bucket_path: "scratch-app"
   on:
